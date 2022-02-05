@@ -1,0 +1,106 @@
+.menuContainer {
+  overflow: hidden;
+  height: 7vh;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 65px;
+  text-align: left;
+}
+
+.menuItem:nth-child(1) .link {
+  font-size: 1.7rem;
+  padding: 0 20px 0 20px;
+}
+
+.menuItem:nth-child(1) .link i {
+  font-size: 2.5rem
+}
+
+.menuItem {
+  padding: 0 25px 0 25px;
+  line-height: 7vh;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: none;
+  font-weight: 500;
+}
+
+.menuItem .link i {
+  line-height: 7vh;
+  margin-right: 0.5rem;
+}
+
+.link {
+  display: flex;
+  color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.logoIcon {
+  color: black;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 2.5rem;
+}
+
+.logoIcon:hover {
+  background-color: none;
+}
+
+.menuItem:first-child {
+  font-weight: 600;
+  margin-right: 35px;
+}
+.logo{
+  color:#dc3545;
+}
+.menuItem:first-child:hover {
+  border-radius: 0px;
+  background-color: white;
+}
+.menuItem:nth-child(1) {
+  float: left;
+}
+
+.menuItem:nth-child(2) {
+  float: left;
+}
+
+.menuItem:nth-child(3) {
+  float: left;
+}
+
+.menuItem:nth-child(4) {
+  float: right;
+}
+
+.menuItem:nth-child(5) {
+  float: right;
+}
+
+.menuItem:last-child {
+  float: right;
+}
+
+.icon {
+  color: black;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,200 @@
+.container {
+  height: 87vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.form {
+  margin-top: 100px;
+  margin-bottom: 6.5rem;
+  width: 450px;
+  max-width: 450px;
+  padding: 2rem;
+  box-shadow: 0 0 15px rgba(0 0 0 / 8%);
+  background-color: #ffffff;
+  border-radius: 25px;
+  border-style: none;
+}
+
+.headline {
+  font-size: 30px;
+  text-align: center;
+  color: #455560;
+  transition: color 0.3s;
+}
+
+.fragment {
+  text-align: center;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.input {
+  width: 75%;
+  height: 2.2rem;
+  color: #333;
+  font-size: 14px;
+  margin: 0 8px;
+  padding: 0.5rem 2.2rem;
+  border-radius: 0.95rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px #aaa solid;
+  transition: all 0.3s;
+}
+
+.input:focus {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  outline: none;
+}
+
+.button {
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.95rem;
+  border: none;
+  color: #222;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  transition: all 1s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  outline: none;
+  background-color: grey;
+  color: white;
+}
+
+.link {
+  font-size: 14px;
+  color: black;
+}
+
+.link:hover {
+  color: black;
+}
+
+.alert {
+  margin-bottom: 0;
+  color: #cc3333;
+  text-align: center;
+  height: 28px;
+  margin-top: 10px;
+}
+.ifSentInfo {
+  color: #222;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+.bottomInfo {
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.bottomInfo a {
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s;
+  color: #455560;
+}
+.bottomInfo :hover {
+  text-decoration: underline;
+  color: #3093f0;
+}
+.selectFragment {
+  margin-top: 20px;
+  text-align: center;
+}
+.selectFragment select {
+  width: 75%;
+  height: 2.2rem;
+  border-radius: 0.95rem;
+  color: #333;
+  background-color: rgb(255, 255, 255);
+  border: 1px #aaa solid;
+  padding: 0.5rem 2.2rem;
+  font-size: 14px;
+}
+.buttonActivate {
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.95rem;
+  border: none;
+  color: #222;
+  justify-content: center;
+}
+
+.buttonActivate:focus {
+  outline: none;
+}
+
+.buttonActivate:hover {
+  transition: all 1s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  outline: none;
+  background-color: grey;
+  color: white;
+}
+.gridLayout {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.rightSide {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.leftSide {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.images {
+  box-shadow: 0 0 15px rgba(0 0 0 / 8%);
+
+  width: 200px;
+  height: 160px;
+}
+.containerChooseAccount {
+  text-align: center;
+  margin-bottom: 6.5rem;
+  width: 600px;
+  max-width: 700px;
+  padding: 2rem;
+  box-shadow: 0 0 15px rgba(0 0 0 / 8%);
+  background-color: #ffffff;
+  border-radius: 25px;
+  border-style: none;
+}
+.fragmentPhoneNumber {
+  text-align: center;
+  line-height: 0.5;
+}
+.form h1 {
+  margin-top: 20px;
+}
+.form .headline{
+font-size:25px;
+}
+.profileTitle{
+  color:#222;
+  text-decoration: none;
+}
+.profileTitle:hover{
+  color:#222;
+  text-decoration: none;
+}

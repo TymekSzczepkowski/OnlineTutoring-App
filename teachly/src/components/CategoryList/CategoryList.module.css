@@ -1,0 +1,25 @@
+.container {
+  border: 1px solid #cdcdcd;
+  margin: 10px 0;
+  padding: 20px;
+}
+.table {
+  margin-bottom:20px;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.th {
+  line-height: 3rem;
+  text-align: center;
+}
+.eachCategory {
+  /* color: rgb(44, 26, 26); */
+  color: #ffffff;
+
+  text-decoration: none;
+}
+.eachCategory:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.container {
+  border: 1px solid #cdcdcd;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+.title {
+  margin: 2rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
